@@ -16,6 +16,8 @@ methods
 * inspection of recent N tweets for RT of users within certain groups
   (advocacy...) to assess higher/lower "score".
 
+* follower-of or followed-by people blocked by issuing user
+
 * caching in riak to alleviate the api limits
   - a daemon that went and polled the records in riak at slightly less than
     the api threshold to keep 'known users' up-to-date so that decisions on
